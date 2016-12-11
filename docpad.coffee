@@ -42,18 +42,17 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"/styles/twitter-bootstrap.css"
-				"/styles/style.css"
+				"/styles/agency.css"
 			]
 
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
+				"//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
-				"/scripts/script.js"
+				"/scripts/agency.js"
 			]
-
-
 
 		# -----------------------------
 		# Helper Functions
@@ -95,16 +94,16 @@ docpadConfig = {
 	# =================================
 	# Plugins
 
-	plugins:
-		downloader:
-			downloads: [
-				{
-					name: 'Bootstrap'
-					path: 'src/files/vendor/twitter-bootstrap'
-					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
-					tarExtractClean: true
-				}
-			]
+	# plugins:
+	# 	downloader:
+	# 		downloads: [
+	# 			{
+	# 				name: 'Bootstrap'
+	# 				path: 'src/files/vendor/twitter-bootstrap'
+	# 				url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
+	# 				tarExtractClean: true
+	# 			}
+	# 		]
 
 
 	# =================================
